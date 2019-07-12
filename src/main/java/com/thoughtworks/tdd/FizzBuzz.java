@@ -14,9 +14,9 @@ public class FizzBuzz {
     public String say(int studentNumber) {
         if (studentNumber%3==0){
             return "fizz";
-        }else if(studentNumber==5){
+        }else if(studentNumber%5==0){
             return "buzz";
-        }else if(studentNumber==7){
+        }else if(studentNumber%7==0){
             return "whizz";
         }
         else {
