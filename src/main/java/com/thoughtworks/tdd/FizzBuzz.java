@@ -12,7 +12,12 @@ public class FizzBuzz {
     }
 
     public String say(int studentNumber) {
-        return String .valueOf(studentNumber) ;
+        if (studentNumber==3){
+            return "fizz";
+        }else {
+            return String .valueOf(studentNumber) ;
+        }
+
     }
 
 //    public String say(int studentNumber) {

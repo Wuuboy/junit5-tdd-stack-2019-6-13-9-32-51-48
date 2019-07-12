@@ -25,5 +25,27 @@ public class FizzBuzzTest {
         //then
         assertThat(result).isEqualTo("2");
     }
+    @Test
+    public void should_say_fizz_when_studentNumber_is_3(){
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz(3);
+        //when
+        String result = fizzBuzz.say(fizzBuzz.getStudentNumber());
+        //then
+        assertThat(result).isEqualTo("fizz");
+    }
+
+    @Test
+    public void should_say_buzz_when_studentNumber_is_5(){
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz(5);
+        //when
+        String result = fizzBuzz.say(fizzBuzz.getStudentNumber());
+        //then
+        assertThat(result).isEqualTo("buzz");
+    }
+
+
+
 
 }
