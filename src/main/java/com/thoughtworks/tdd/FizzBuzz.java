@@ -14,7 +14,10 @@ public class FizzBuzz {
     public String say(int studentNumber) {
         if (studentNumber==3){
             return "fizz";
-        }else {
+        }else if(studentNumber==5){
+            return "buzz";
+        }
+        else {
             return String .valueOf(studentNumber) ;
         }
 
