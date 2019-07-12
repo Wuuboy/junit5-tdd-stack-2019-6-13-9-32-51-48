@@ -16,6 +16,8 @@ public class FizzBuzz {
             return "fizz";
         }else if(studentNumber==5){
             return "buzz";
+        }else if(studentNumber==7){
+            return "whizz";
         }
         else {
             return String .valueOf(studentNumber) ;
