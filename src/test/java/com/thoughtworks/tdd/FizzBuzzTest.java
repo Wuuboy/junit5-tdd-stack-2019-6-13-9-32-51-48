@@ -122,4 +122,14 @@ public class FizzBuzzTest {
         //then
         assertThat(result).isEqualTo("fizzbuzzwhizz");
     }
+
+    @Test
+    public void should_say_wrongInfo_when_studentNumber_is_105(){
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz(125);
+        //when
+        String result = fizzBuzz.say(fizzBuzz.getStudentNumber());
+        //then
+        assertThat(result).isEqualTo("查无此人！");
+    }
 }

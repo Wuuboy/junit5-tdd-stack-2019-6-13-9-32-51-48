@@ -12,7 +12,9 @@ public class FizzBuzz {
     }
 
     public String say(int studentNumber) {
-        if (studentNumber%3==0 && studentNumber%5==0 ){
+        if (studentNumber%3==0 &&studentNumber%5==0 && studentNumber%7==0 ){
+            return "fizzbuzzwhizz";
+        } else if (studentNumber%3==0 && studentNumber%5==0 ){
             return "fizzbuzz";
         }else if(studentNumber%3==0&studentNumber%7==0) {
             return "fizzwhizz";
