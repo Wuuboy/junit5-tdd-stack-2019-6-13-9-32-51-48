@@ -112,4 +112,14 @@ public class FizzBuzzTest {
         //then
         assertThat(result).isEqualTo("buzzwhizz");
     }
+
+    @Test
+    public void should_say_fizzbuzzwhizz_when_studentNumber_is_105(){
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz(105);
+        //when
+        String result = fizzBuzz.say(fizzBuzz.getStudentNumber());
+        //then
+        assertThat(result).isEqualTo("fizzbuzzwhizz");
+    }
 }

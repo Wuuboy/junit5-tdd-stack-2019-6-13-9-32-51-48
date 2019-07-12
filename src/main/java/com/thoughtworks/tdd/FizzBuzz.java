@@ -16,6 +16,8 @@ public class FizzBuzz {
             return "fizzbuzz";
         }else if(studentNumber%3==0&studentNumber%7==0) {
             return "fizzwhizz";
+        } else if (studentNumber%5==0 && studentNumber%7==0 ){
+            return "buzzwhizz";
         } else if (studentNumber%3==0){
             return "fizz";
         }else if(studentNumber%5==0){
