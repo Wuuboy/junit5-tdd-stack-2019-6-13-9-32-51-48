@@ -12,7 +12,7 @@ public class FizzBuzz {
     }
 
     public String say(int studentNumber) {
-        if (studentNumber==3){
+        if (studentNumber%3==0){
             return "fizz";
         }else if(studentNumber==5){
             return "buzz";
