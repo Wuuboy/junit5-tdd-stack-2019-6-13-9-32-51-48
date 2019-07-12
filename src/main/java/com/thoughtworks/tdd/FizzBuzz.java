@@ -11,6 +11,10 @@ public class FizzBuzz {
         return studentNumber;
     }
 
+    public String say(int studentNumber) {
+        return String .valueOf(studentNumber) ;
+    }
+
 //    public String say(int studentNumber) {
 //        if (studentNumber>=1&& studentNumber<=120){
 //            if (studentNumber%3==0 &&studentNumber%5==0 && studentNumber%7==0 ){

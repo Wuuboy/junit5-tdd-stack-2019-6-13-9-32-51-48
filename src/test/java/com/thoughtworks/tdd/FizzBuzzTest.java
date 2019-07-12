@@ -15,4 +15,15 @@ public class FizzBuzzTest {
         //then
         assertThat(result).isEqualTo("1");
     }
+
+    @Test
+    public void should_say_2_when_studentNumber_is_2(){
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz(2);
+        //when
+        String result = fizzBuzz.say(fizzBuzz.getStudentNumber());
+        //then
+        assertThat(result).isEqualTo("2");
+    }
+
 }
